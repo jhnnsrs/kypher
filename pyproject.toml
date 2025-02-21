@@ -1,0 +1,11 @@
+[project]
+name = "kypher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alpaka>=0.1.18",
+    "arkitekt-next[all]==0.8.65",
+    "kraph>=0.1.102",
+]
