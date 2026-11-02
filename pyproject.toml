@@ -9,3 +9,7 @@ dependencies = [
     "arkitekt-next[all]==0.8.65",
     "kraph>=0.1.102",
 ]
+
+[tool.ruff.lint]
+extend-select = ["UP"]
+extend-ignore = ["UP037", "UP038", "UP042", "UP040", "UP046", "UP047", "UP049"]
